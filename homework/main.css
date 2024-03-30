@@ -36,6 +36,9 @@ h2{
 p{
     font-size: 1.6em;
 }
+hr{
+    color: #6C7275;
+}
 .container{
     max-width: 1240px;
     margin: 0 auto;
@@ -80,7 +83,6 @@ ul{
     flex-direction: column;
     font-family: Poppins
     ;
-    border: 1px black solid;
 }
 
 .shops{
@@ -160,39 +162,44 @@ border-bottom: 2px transparent solid;
         width: 643px;
         display: flex;
         flex-direction: column;
+        flex: 1 0 140px;
+        
     }
 
     .product{
-        border: 1px black solid;
         width: 1120px;
-    height: 100vh;
     padding: 80px 0px 80px 0px;
     gap: 64px;
-    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
 
     }
     .product_2{
         display: flex;
         width: 643px;
-        padding: 20px;
         font-size: 0.7em;
         justify-content: space-between;
-        border: 1px black solid;
 
     }
-    .quantity{
-        border: 1px black solid;
-        
+    .quantity{   
+        font-family: Inter ,sans-serif;
+        padding-bottom: 10px;     
         display: flex;
     }
     .quantity h1{
         padding-left: 74.5px;
     }
     .line{
+        
         width: 100%;
-        border: 1px black solid;
+        border: 0.001px #6C7275 solid;
     }
     .table{
+        padding-top: 24px;
+        padding-bottom: 24px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -220,18 +227,268 @@ border-bottom: 2px transparent solid;
     }
 
     .ong{
+        align-items: center;
         display: flex;
+        gap: 63px;
         
     }
 
     .romka{
         border: 1px #6C7275 solid;
-        padding:5px 18px;
+        border-radius: 8px;
         gap: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .romka h2{
-        padding: 14px;
+        padding: 8px;
+    }
+
+    .sum{
+        display: flex;
+        padding: 15px;
+        align-items: center;
+        gap: 13px;
+        flex-direction: column;
+        width: 413px;
+        border-radius: 8px;
+        border: 2px #6C7275 solid;
+    }
+    .sum h1{
+        display: flex;
+        align-items: flex-start;
+        font-family: Poppins
+        ;
+        
+        align-self: start;
+        padding-left: 8px;
+    }
+    .inputs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .katta{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px;
+        width: 365px;
+        border-radius: 4px;
+        border: 2px #6C7275 solid;
+    }
+    .katta p{
+      
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: right;
+
+    }
+    .ship{
+        display: flex;
+        align-items: center;
+        gap:12px;
+    }
+    .ship h2{
+        
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+
+    }
+    #input{
+        width: 25px;
+        height: 25px;
+    }
+
+    .sub{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 13px;
+    }
+
+    .sub h2{
+        
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+
+    }
+
+    .sum button{
+        width: 365px;
+        height:52px;
+        padding: 10px 26px 10px 26px;
+        border-radius: 8px ;
+        text-align: center;
+        background: black;
+        color: white;
+        border: none;
+        transition: .5s;
+        border: 2px white solid;
+
+
+    }
+    button:hover{
+        border: 2px black solid;
+        background: #fff;
+        color: black;
+        font-weight: bold;
+    }
+
+    .have{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-self: flex-start;
+    }
+
+    .have h1{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+    }
+
+    .apply{
+        display: flex;
+        justify-content: space-between;
+        border: 2px #6C7275 solid;
+        padding: 12px;
+        width: 424px;
+        border-radius: 8px;
+    }
+    .ass{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+
+    .ass h2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #6C7275;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+
+    }
+
+    .add h2{
+       
+font-family: Inter;
+font-size: 16px;
+color: #6C7275;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+
+    }
+
+    footer{
+        background: #141718
+        ;
+    }
+
+    .leg{
+        height: 249px;
+        display: flex;
+        align-items: center;
+        padding: 160px 0px 180px;
+        flex-direction: column;
+        padding-left: 80px;
+    padding-bottom: 0px;
+    padding-top: 80px;
+    padding-right: 80px;
+    color: white;
+
+    }
+
+    .dec{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 49px;
+
+    }
+
+    .bss{display: flex;
+    align-items: center;
+gap: 32px;
+}
+.dec p{
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+
+}
+
+
+
+    .ver{
+        width: 0;
+        height:20px;
+        border: #6C7275 1px solid;
+    }
+
+    .links{
+        display: flex;
+        gap: 40px;
+    }
+    .links a{
+        color: white;
+        border-bottom: transparent 2px solid;
+    }
+    .links a:hover{
+        border-bottom: #fff 2px solid;
+    }
+
+    .copy{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+   
+    .res{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        padding: 16px;
+    }
+    .res h1{
+        
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+    }
+    .res a{
+        color: white;
+        font-weight: 600;
+        border-bottom: transparent 2px solid;
+    }
+    .res a:hover{
+        border-bottom: 2px solid white;
     }
