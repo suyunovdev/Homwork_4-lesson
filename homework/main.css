@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #6C7275;
+    transition: .5s;
+  
+font-family: Space Grotesk;
+font-size: 1.7em;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+a:hover{
+    color: black;
+}
+body{
+    font-size: 10px;
+    max-width: 1440px;
+
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.6em;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:16px 80px ;
+    align-items: center;
+}
+.logo h1{
+    font-size: 3em;
+}
+ul{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.right {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 80px;
+    
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: Poppins
+    ;
+    border: 1px black solid;
+}
+
+.shops{
+    display: flex;
+    align-items: center;
+    width: 832px;
+    justify-content: space-around;
+height: 68px;
+gap: 32px;
+opacity: 0px;
+padding-top: 40px;
+font-family: Inter;
+
+}
+.shop{
+height:50px;
+display: flex;
+padding: 0px 0px 26px 0px;
+gap: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0px;
+transition: .1s;
+border-bottom: 2px transparent solid;
+}
+
+.shop:hover{
+        border-bottom: 2px black solid;
+
+}
+
+.circle{
+    width: 42px;
+    height: 42px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: black;
+}
+
+.shop2{
+    height:50px;
+    display: flex;
+    padding: 0px 0px 26px 0px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    transition: .1s;
+    color: #6C7275;
+    border-bottom: 2px transparent solid;
+
+    }
+    
+    .shop2:hover{
+            transform: scale(X)(2,1);
+            border-bottom: 2px black solid;
+    
+    }
+    
+    .circle2{
+        width: 42px;
+        height: 42px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #6C7275;
+    }
+
+    .chap{
+        width: 643px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product{
+        border: 1px black solid;
+        width: 1120px;
+    height: 100vh;
+    padding: 80px 0px 80px 0px;
+    gap: 64px;
+    opacity: 0px;
+
+    }
+    .product_2{
+        display: flex;
+        width: 643px;
+        padding: 20px;
+        font-size: 0.7em;
+        justify-content: space-between;
+        border: 1px black solid;
+
+    }
+    .quantity{
+        border: 1px black solid;
+        
+        display: flex;
+    }
+    .quantity h1{
+        padding-left: 74.5px;
+    }
+    .line{
+        width: 100%;
+        border: 1px black solid;
+    }
+    .table{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .table_1{
+        display: flex;
+        gap: 16px;
+    }
+    .table-text{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+        font-family: Inter;
+    }
+    .table-text h2{
+        font-size: 1.8em;
+    }
+    .table-text h3{
+        color: #6C7275;
+        font-size: 1.8em;
+    }
+    .remove{
+        display: flex;
+    }
+
+    .ong{
+        display: flex;
+        
+    }
+
+    .romka{
+        border: 1px #6C7275 solid;
+        padding:5px 18px;
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .romka h2{
+        padding: 14px;
+    }
